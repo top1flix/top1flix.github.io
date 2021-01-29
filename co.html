@@ -1,7 +1,7 @@
 <html>
     <head>
        <meta charset="utf-8">
-       <script src="script1.js"></script>
+        <script src="script1.js"></script>
         <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     </head>
@@ -21,26 +21,25 @@
 </header>
         <div id="container1">
             
-            <form class ="co" name="form" method="GET" action="traitement.html" onsubmit = "return validateForm()" >
-                <h1>INSCRIPTION</h1>
+            <form class="co" name="form" method="GET" action="traitement.html" onsubmit = "return validateForm()">
+                <h1>CONNEXION</h1>
                 
                 <label><b>Nom d'utilisateur</b></label>
-                <input type="text" placeholder="Entrer le nom d'utilisateur" id="username" onchange="nomValidate()">
-				
-				<label><b>E-mail</b></label>
-	            <input id="email" type="text" placeholder="Entrer votre e-mail" onchange="validateEmail(email)">
+                <input type="text" placeholder="Entrer le nom d'utilisateur" id="input" onchange="nomValidate()"/>
 
                 <label><b>Mot de passe</b></label>
-                <input type="password" placeholder="Entrer le mot de passe" id="password" onchange="passwordValidate()" >
-				
-				<label><b>Confirmer votre mot de passe</b></label>
-                <input type="password" placeholder="Entrer le mot de passe" id="password" onchange="passwordValidate()">
+                <input type="password" placeholder="Entrer le mot de passe" id="input" onchange="passwordValidate()">
 
-                <input type="submit" id='submit' value="S'inscrire" >
-			
+                <input type="submit" id='input' value='LOGIN' >
+				<br>
+                <a href="">Mot de passe oublié ?</a>
+				<br>
+				<br>
+				<a href="in.html">Créer un compte</a>
             </form>
         </div>
         </fieldset>
+          <br>
           <br>
           <br>
           <footer class="footer">
