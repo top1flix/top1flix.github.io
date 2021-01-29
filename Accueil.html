@@ -1,90 +1,282 @@
-<DOCTYPE!html>
-<html>
-<head>
-    <title>ACCUEIL</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-<header class="main-head">
-	<nav>
-		<h1 id="logo">top1flix</h1>
-		<ul>
-			<li><a href="Accueil.html">ACCUEIL</a></li>
-			<li><a href="f1.html">FILMS</a></li>
-			<li><a href="s1.html">SERIE</a></li>
-			<li><a href="in.html">INSCRIPTION</a></li>
-		</ul>
-			<form class="search-form"><input type="search" id="search"  name ="search" placeholder="search..." />
-			</a></form>   
-	</nav>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="lightslider.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="lightslider.js"></script>
+    <title>Accueil</title>
+  </head>
+  <body>
+    <header class="main-head">
+  <nav>
+    <img src="logo1.png"  id="logo">
+    <ul>
+      <li><a href="Accueil.html">ACCUEIL</a></li>
+      <li><a href="f1.html">FILMS</a></li>
+      <li><a href="s1.html">SERIE</a></li>
+      <li><a href="co.html">INSCRIPTION</a></li>
+    </ul>
+      <form class="search-form"><input type="search" id="search"  name ="search" placeholder="search..." />
+      </a></form>   
+  </nav>
+
 </header>
 <br>
-<div class="diaporama">
-</div>
 <br>
-<br>
-<br>
-<section align="center">
-     <h2><font size="70"><B>TOP FILMS<B></font></h2>
-	 <br>
-	 <br>
-	 <table align="center">
-	 <tr>
-	   <th><figure><img src="film1.jpg" alt="film" width="300px" height="500px"><br><br><figcaption>THE SHAWSHANK REDEMPTION</figcaption></figure></th>
-	   <th><figure><img src="film2.jpg" alt="film" width="300px" height="500px"><br><br><figcaption>PARASITE</figcaption></figure></th>
-	   <th><figure><img src="film3.jpg" alt="film" width="300px" height="500px"><br><br><figcaption>LITTLE WOMEN</figcaption></figure></th>
-	   <th><figure><img src="film4.jpg" alt="film" width="300px" height="500px"><br><br><figcaption>FORREST GUMP</figcaption></figure></th>
-	 </tr>
-	 <tr>
-	   <th><figure><img src="film5.jpg" alt="film" width="300px" height="500px"><br><br><figcaption>INTERSTELLAR</figcaption></figure></th>
-	   <th><figure><img src="film6.jpg" alt="film" width="300px" height="500px"><br><br><figcaption>INCEPTION</figcaption></figure></th>
-	   <th><figure><img src="film7.jpg" alt="film" width="300px" height="500px" ><br><br><figcaption>CATCH ME IF YOU CAN</figcaption></figure></th>
-	   <th><figure><img src="film10.jpg" alt="film" width="300px" height="500px"><br><br><figcaption>THE GODFATHER</figcaption></figure></th>
-	 </tr>
-	 </table>
+
+    <ul id="autoWidth" class="cs-hidden">
+      <li class="item-a">
+        <div class="box">
+          <div class="slide-img">
+            <img src="1.jpg" alt="" />
+            <div class="overlay">
+              <a href="#" class="buy-btn">watch now</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="#">Lacoste</a>
+              <span>Sweatshirt</span>
+            </div>
+            <a href="#" class="price">Rs.8680</a>
+          </div>
+        </div>
+      </li>
+      <li class="item-b">
+        <div class="box">
+          <div class="slide-img">
+            <img src="2.jpg" alt="" />
+            <div class="overlay">
+              <a href="#" class="buy-btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="#">Mango</a>
+              <span>Casual Shirt</span>
+            </div>
+            <a href="#" class="price">Rs.4490</a>
+          </div>
+        </div>
+      </li>
+      <li class="item-c">
+        <div class="box">
+          <div class="slide-img">
+            <img src="3.jpg" alt="" />
+            <div class="overlay">
+              <a href="#" class="buy-btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="#">Nike Tshirt</a>
+              <span>V-Neck T-shirt</span>
+            </div>
+            <a href="#" class="price">Rs.3051</a>
+          </div>
+        </div>
+      </li>
+      <li class="item-d">
+        <div class="box">
+          <div class="slide-img">
+            <img src="4.jpg" alt="" />
+            <div class="overlay">
+              <a href="#" class="buy-btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="#">Allen Solly Woman</a>
+              <span>Formal Shirt</span>
+            </div>
+            <a href="#" class="price">Rs.1299</a>
+          </div>
+        </div>
+      </li>
+      <li class="item-e">
+        <div class="box">
+          <div class="slide-img">
+            <img src="5.jpg" alt="" />
+            <div class="overlay">
+              <a href="#" class="buy-btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="#">Puma</a>
+              <span>V-Neck T-shirt</span>
+            </div>
+            <a href="#" class="price">Rs.3299</a>
+          </div>
+        </div>
+      </li>
+      <li class="item-f">
+        <div class="box">
+          <div class="slide-img">
+            <img src="6.jpg" alt="" />
+            <div class="overlay">
+              <a href="#" class="buy-btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="#">Ritu Kumar</a>
+              <span>Embroidered Tunic</span>
+            </div>
+            <a href="#" class="price">Rs.5600</a>
+          </div>
+        </div>
+      </li>
+      <li class="item-g">
+        <div class="box">
+          <div class="slide-img">
+            <img src="7.jpg" alt="" />
+            <div class="overlay">
+              <a href="#" class="buy-btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="#">UNDER ARMOUR</a>
+              <span>111</span>
+            </div>
+            <a href="#" class="price">Rs.4499</a>
+          </div>
+        </div>
+      </li>
+      <li class="item-h">
+        <div class="box">
+          <div class="slide-img">
+            <img src="8.jpg" alt="" />
+            <div class="overlay">
+              <a href="#" class="buy-btn">Watch Now</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="#">DOROTHY PERKINS</a>
+              <span>Drama</span>
+            </div>
+            <a href="#" class="price">Rs.3990</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <script type="text/javascript" src="script.js"></script>
+    <br>
+    <br>
+
+    <section align="center">
+     <p><font size="70"><B>TOP FILMS<B></font></p>
+   <table align="center">
+   <tr>
+     <th><figure><img src="film1.jpg" alt="film" width="300px" height="500px"><figcaption>THE SHAWSHANK REDEMPTION</figcaption></figure></th>
+     <th><figure><img src="film2.jpg" alt="film" width="300px" height="500px"><figcaption>PARASITE</figcaption></figure></th>
+     <th><figure><img src="film3.jpg" alt="film" width="300px" height="500px"><figcaption>LITTLE WOMEN</figcaption></figure></th>
+     <th><figure><img src="film4.jpg" alt="film" width="300px" height="500px"><figcaption>FORREST GUMP</figcaption></figure></th>
+   </tr>
+   <tr>
+     <th><figure><img src="film5.jpg" alt="film" width="300px" height="500px"><figcaption>INTERSTELLAR</figcaption></figure></th>
+     <th><figure><img src="film6.jpg" alt="film" width="300px" height="500px"><figcaption>INCEPTION</figcaption></figure></th>
+     <th><figure><img src="film7.jpg" alt="film" width="300px" height="500px" ><figcaption>CATCH ME IF YOU CAN</figcaption></figure></th>
+     <th><figure><img src="film10.jpg" alt="film" width="300px" height="500px"><figcaption>THE GODFATHER</figcaption></figure></th>
+   </tr>
+   </table>
 </section>
 <br>
 <br>
 <br>
 <section align="center">
-     <h2><font size="70"><B>TOP SERIES<B></font></h2>
-	 <br>
-	 <br>    
-	 <table align="center">
-	 <tr>
-	   <th><figure><img src="serie1.jpg" alt="serie" width="300px" height="500px"><br><br><figcaption>THE QUEEN'S GAMBIT</figcaption></figure></th>
-	   <th><figure><img src="serie2.jpg" alt="serie" width="300px" height="500px"><br><br><figcaption>PEAKY BLINDERS</figcaption></figure></th>
-	   <th><figure><img src="serie3.jpg" alt="serie" width="300px" height="500px"><br><br><figcaption>BREAKING BAD</figcaption></figure></th>
-	   <th><figure><img src="serie4.jpg" alt="serie" width="300px" height="500px"><br><br><figcaption>GAME OF THRONES</figcaption></figure></th>
-	 </tr>
-	 <tr>
-	   <th><figure><img src="serie5.jpg" alt="" width="300px" height="500px"><br><br><figcaption>PRISON BREAK</figcaption></figure></th>
-	   <th><figure><img src="serie6.jpg" alt="" width="300px" height="500px"><br><br><figcaption>THE WITCHER</figcaption></figure></th>
-	   <th><figure><img src="serie7.jpg" alt="" width="300px" height="500px"><br><br><figcaption>CHERNOBYL</figcaption></figure></th>
-	   <th><figure><img src="serie8.jpg" alt="" width="300px" height="500px"><br><br><figcaption>HOW TO GET AWAY WITH MURDER</figcaption></figure></th>
-	 </tr>
-	 </table>
+     <p><font size="70"><B>TOP SERIES<B></font></p>
+   <table align="center">
+   <tr>
+     <th><figure><img src="serie1.jpg" alt="serie" width="300px" height="500px"><figcaption>THE QUEEN'S GAMBIT</figcaption></figure></th>
+     <th><figure><img src="serie2.jpg" alt="serie" width="300px" height="500px"><figcaption>PEAKY BLINDERS</figcaption></figure></th>
+     <th><figure><img src="serie3.jpg" alt="serie" width="300px" height="500px"><figcaption>BREAKING BAD</figcaption></figure></th>
+     <th><figure><img src="serie4.jpg" alt="serie" width="300px" height="500px"><figcaption>GAME OF THRONES</figcaption></figure></th>
+   </tr>
+   <tr>
+     <th><figure><img src="serie5.jpg" alt="" width="300px" height="500px"><figcaption>PRISON BREAK</figcaption></figure></th>
+     <th><figure><img src="serie6.jpg" alt="" width="300px" height="500px"><figcaption>THE WITCHER</figcaption></figure></th>
+     <th><figure><img src="serie7.jpg" alt="" width="300px" height="500px" ><figcaption>CHERNOBYL</figcaption></figure></th>
+     <th><figure><img src="serie8.jpg" alt="" width="300px" height="500px"><figcaption>HOW TO GET AWAY WITH MURDER</figcaption></figure></th>
+   </tr>
+   </table>
 </section>
 <br>
 <br>
 <br>
 <section align="center">
-     <h2><font size="70"><B>TRENDING<B></font></h2>
-	 <br>
-	 <br>
-	 <table align="center">
+     <p><font size="70"><B>TRENDING<B></font></p>
+   <table align="center">
      <tr>
-	   <th><figure><img src="trending1.jpg" alt="imdb" width="300px" height="500px"><br><br><figcaption>BRIDGERTON</figcaption></figure></th>
-	   <th><figure><img src="trending2.png" alt="imdb" width="300px" height="500px"><br><br><figcaption>VIKINGS</figcaption></figure></th>
-	   <th><figure><img src="trending3.jpg" alt="imdb" width="300px" height="500px"><br><br><figcaption>WONDER WOMAN 1984</figcaption></figure></th>
-	   <th><figure><img src="trending4.jpg" alt="imdb" width="300px" height="500px"><br><br><figcaption>THE CROWN</figcaption></figure></th>
-	 </tr>
-	 <tr>
-	   <th><figure><img src="film24.jpg" alt="imdb" width="300px" height="500px"><br><br><figcaption>TENET</figcaption></figure></th>
-	   <th><figure><img src="trending6.jpg" alt="imdb" width="300px" height="500px"><br><br><figcaption>COBRA KAI</figcaption></figure></th>
-	   <th><figure><img src="trending7.jpg" alt="imdb" width="300px" height="500px"><br><br><figcaption>SOUL</figcaption></figure></th>
-	   <th><figure><img src="trending8.jpg" alt="imdb" width="300px" height="500px"><br><br><figcaption>MANDALORIAN</figcaption></figure></th>
-	 </tr>
-	 </table>
+     <th><figure><img src="trending1.jpg" alt="imdb" width="300px" height="500px"><figcaption>BRIDGERTON</figcaption></figure></th>
+     <th><figure><img src="trending2.png" alt="imdb" width="300px" height="500px"><figcaption>VIKINGS</figcaption></figure></th>
+     <th><figure><img src="trending3.jpg" alt="imdb" width="300px" height="500px"><figcaption>WONDER WOMAN 1984</figcaption></figure></th>
+     <th><figure><img src="trending4.jpg" alt="imdb" width="300px" height="500px"><figcaption>THE CROWN</figcaption></figure></th>
+   </tr>
+   <tr>
+     <th><figure><img src="film24.jpg" alt="imdb" width="300px" height="500px"><figcaption>TENET</figcaption></figure></th>
+     <th><figure><img src="trending6.jpg" alt="imdb" width="300px" height="500px"><figcaption>COBRA KAI</figcaption></figure></th>
+     <th><figure><img src="trending7.jpg" alt="imdb" width="300px" height="500px" ><figcaption>SOUL</figcaption></figure></th>
+     <th><figure><img src="trending8.jpg" alt="imdb" width="300px" height="500px"><figcaption>MANDALORIAN</figcaption></figure></th>
+   </tr>
+   </table>
 </section>
-</body>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+      <img src="logo1.png"  id="logo" height="150px";
+  width="150px" >
+  <p>mlkkldqs,lks,qcls,clkqs,clsq,clskc,sck,sl<br>dlsk,clksclks,lcs,kcls,<br>clsdk,clclk,</p>
+          </div>
+              
+              <div class="footer-col">
+        <h4>get help </h4>
+        <ul>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+        </ul>
+          </div>  
+              <div class="footer-col">
+        <h4>get help </h4>
+        <ul>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+        </ul>
+          </div>  
+          <div class="footer-col">
+        <h4>online</h4>
+        <ul>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+        </ul>
+          </div>    
+          <div class="footer-col">
+        <h4>follow us</h4>
+        
+        <div class="social-link">
+          <a href="#"> <i class="fab fa-facebook-f"></i></a>
+          <a href="#"> <i class="fab fa-twitter"></i></a>
+          <a href="#"> <i class="fab fa-instagram"></i></a>
+          <a href="#"> <i class="fab fa-linkedin-in"></i></a>
+          
+        </div>
+          </div>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
