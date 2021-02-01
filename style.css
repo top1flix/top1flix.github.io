@@ -14,7 +14,6 @@ html {
 
 a{
     text-decoration: none;
-    font-family: Bradley Hand, cursive;
     
 }
 
@@ -181,6 +180,7 @@ nav ul {
 nav ul a {
 	font-size: 30px;
 	font-family: Bradley Hand, cursive;
+}
 }
 
 #logo {
