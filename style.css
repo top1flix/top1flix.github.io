@@ -145,7 +145,6 @@ nav img {
 }
 li {
     font-size: 2rem;
-    font-family: Bradley Hand, cursive;
 }
 a{
     color: #000000;
@@ -178,10 +177,10 @@ nav ul {
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    
-
 }
-
+nav ul a {
+	font-size: 30px;
+	font-family: Bradley Hand, cursive;
 }
 
 #logo {
