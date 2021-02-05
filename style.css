@@ -148,7 +148,7 @@ html {
 body {
     margin: 2px;
     padding: 2px;
-    background-color: #2B3177;
+    background-color: #B1A6C7;
     color: #FFFFFF;
 }
 nav img {
@@ -195,7 +195,8 @@ nav ul {
 }
 nav ul a{
     font-family: Bradley hand, cursive;
-    font-size: 25px;
+    font-size: 20px;
+    color: #381583;
 }
 
 }
