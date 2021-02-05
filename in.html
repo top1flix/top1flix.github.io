@@ -1,0 +1,97 @@
+<html>
+    <head>
+       <meta charset="utf-8">
+       <script src="script1.js"></script>
+        <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    </head>
+    <body>
+        <header class="main-head">
+    <nav>
+        <img src="logo1.png"  id="logo">
+        <ul>
+            <li><a href="Accueil.html">ACCUEIL</a></li>
+            <li><a href="f1.html">FILMS</a></li>
+            <li><a href="s1.html">SERIE</a></li>
+           <li><a href="co.html">CONNEXION</a></li>
+        </ul>
+            <form class="search-form"><input type="search" id="search"  name ="search" placeholder="search..." />
+            </a></form>   
+    </nav>
+</header>
+        <div id="container1">
+            
+            <form class ="co" name="form" method="GET" action="traitement.html" onsubmit = "return validateForm()" >
+                <h1>INSCRIPTION</h1>
+                
+                <label><b>Nom d'utilisateur</b></label>
+                <input type="text" placeholder="Entrer le nom d'utilisateur" id="username" onchange="nomValidate()">
+				
+				<label><b>E-mail</b></label>
+	            <input id="email" type="text" placeholder="Entrer votre e-mail" onchange="validateEmail(email)">
+
+                <label><b>Mot de passe</b></label>
+                <input type="password" placeholder="Entrer le mot de passe" id="password" onchange="passwordValidate()" >
+				
+				<label><b>Confirmer votre mot de passe</b></label>
+                <input type="password" placeholder="Entrer le mot de passe" id="password" onchange="passwordValidate()">
+
+                <input type="submit" id='submit' value="S'inscrire" >
+			
+            </form>
+        </div>
+        </fieldset>
+          <br>
+          <br>
+          <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+            <img src="logo1.png"  id="logo" height="150px";
+    width="150px" >
+    <p>mlkkldqs,lks,qcls,clkqs,clsq,clskc,sck,sl<br>dlsk,clksclks,lcs,kcls,<br>clsdk,clclk,</p>
+                </div>
+                        
+                        <div class="footer-col">
+                <h4>get help </h4>
+                <ul>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                </ul>
+                </div>  
+                        <div class="footer-col">
+                <h4>get help </h4>
+                <ul>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                </ul>
+                </div>  
+                <div class="footer-col">
+                <h4>online</h4>
+                <ul>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                </ul>
+                </div>      
+                <div class="footer-col">
+                <h4>follow us</h4>
+                
+                <div class="social-link">
+                    <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                    <a href="#"> <i class="fab fa-twitter"></i></a>
+                    <a href="#"> <i class="fab fa-instagram"></i></a>
+                    <a href="#"> <i class="fab fa-linkedin-in"></i></a>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </body>
+</html>
